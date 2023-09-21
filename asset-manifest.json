@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Mickias-Girma/static/css/main.dfe50232.css",
+    "main.js": "/Mickias-Girma/static/js/main.6c644aca.js",
+    "static/media/hero-bg.jpg": "/Mickias-Girma/static/media/hero-bg.a79194260676454f5ed3.jpg",
+    "index.html": "/Mickias-Girma/index.html",
+    "main.dfe50232.css.map": "/Mickias-Girma/static/css/main.dfe50232.css.map",
+    "main.6c644aca.js.map": "/Mickias-Girma/static/js/main.6c644aca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfe50232.css",
+    "static/js/main.6c644aca.js"
+  ]
+}
