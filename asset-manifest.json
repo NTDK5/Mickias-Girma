@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Mickias-Girma/static/css/main.dfe50232.css",
-    "main.js": "/Mickias-Girma/static/js/main.6c644aca.js",
-    "static/media/hero-bg.jpg": "/Mickias-Girma/static/media/hero-bg.a79194260676454f5ed3.jpg",
+    "main.css": "/Mickias-Girma/static/css/main.78c26dd6.css",
+    "main.js": "/Mickias-Girma/static/js/main.4fcc5e00.js",
+    "static/media/hero-bg.jpg": "/Mickias-Girma/static/media/hero-bg.6e15fe50b61a3c95ecfa.jpg",
     "index.html": "/Mickias-Girma/index.html",
-    "main.dfe50232.css.map": "/Mickias-Girma/static/css/main.dfe50232.css.map",
-    "main.6c644aca.js.map": "/Mickias-Girma/static/js/main.6c644aca.js.map"
+    "main.78c26dd6.css.map": "/Mickias-Girma/static/css/main.78c26dd6.css.map",
+    "main.4fcc5e00.js.map": "/Mickias-Girma/static/js/main.4fcc5e00.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfe50232.css",
-    "static/js/main.6c644aca.js"
+    "static/css/main.78c26dd6.css",
+    "static/js/main.4fcc5e00.js"
   ]
 }
