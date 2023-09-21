@@ -1,0 +1,161 @@
+#about {
+  width: 100%;
+  overflow-y: hidden;
+  background: #fff;
+  padding: 60px 0;
+}
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  width: 65%;
+  text-align: center;
+  padding: 20px 0;
+}
+.title > h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+}
+
+.title h1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.title h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0563bb;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.content {
+  width: 65%;
+  display: flex;
+  gap: 50px;
+  padding: 50px 0;
+}
+.content > img {
+  width: 400px;
+}
+.content > .details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content > .details h1 {
+  color: #728394;
+  font-size: 28px;
+}
+.info > ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: flex;
+  gap: 6px;
+}
+.infor > ul li > svg {
+  color: #728394;
+}
+li > strong {
+  margin-right: 10px;
+}
+
+#skill {
+  overflow-y: hidden;
+  padding: 60px 0;
+}
+.skill-list {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.skill-item {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sktill-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #45505b;
+  font-weight: light;
+}
+.progressbar {
+  width: 100%;
+  background-color: #45505b;
+  height: 10px;
+  position: relative;
+}
+.percentage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #0563bb;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.skill {
+  display: flex;
+  padding: 40px 0;
+  width: 65%;
+  gap: 20px;
+}
+@media (max-width: 1000px) {
+  .title {
+    width: 70%;
+  }
+  .content {
+    width: 70%;
+    flex-direction: column;
+  }
+  .content > img {
+    width: 600px;
+  }
+  .skill {
+    width: 70%;
+    flex-direction: column;
+  }
+  .skill-item {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    width: 90%;
+  }
+  .content {
+    width: 90%;
+  }
+  .content > img {
+    width: 100%;
+  }
+  .skill {
+    width: 90%;
+  }
+  .skill-item {
+    width: 100%;
+  }
+}
