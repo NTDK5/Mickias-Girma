@@ -61,10 +61,13 @@ const About = () => {
           <div className="title">
             <h1>Skills</h1>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              I'm an illustrator, Graphics, and motion design artist with over 3
+              years of experience in creating awesome artwork. I'm always
+              excited to take on new artistic projects and bring my creativity
+              to the table. With a solid background in design software and
+              technical and communicational aspects of the creative process, I
+              can adapt to many different styles according to what the project
+              requires! this website include my latest artistic design projects
             </p>
           </div>
           <div className="skill">
